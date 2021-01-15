@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="10dd5143-689d-4547-ac7e-2bb28bdd3b1f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="10dd5143-689d-4547-ac7e-2bb28bdd3b1f" name="Default Changelist" comment="删除classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dir/test/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dir/test/temp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/equalTest/TestObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/equalTest/eqtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test1.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test3.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test4.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test5.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/TestDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frame/TestDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/gc/ReferenceCountingGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/oom/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/thread/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/DiffCul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FileRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/TestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nio/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/action/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/action/pojo/AdjustStu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/action/pojo/impl/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/action/pojo/inter/Study.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/impl/TestImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/impl/TestImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadPool/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadPool/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadPool/ThreadAndNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadPool/ThreadLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadPool/ThreadLockTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadPool/WaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/page/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spring/action/BeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/aop/testMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/aop/testMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testAop.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -25,6 +76,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -33,9 +85,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1fthAZ9FgO8O5NzE6xSn6p0aG6g" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -43,35 +109,26 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Mybatis" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test.aop.aspect" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyFile\testAop\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.aop.aspect" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyFile\testAop" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.IntegerBreak">
-    <configuration name="IntegerBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.IntegerBreak" />
+  <component name="RunManager" selected="Application.TestDialog">
+    <configuration name="HeapOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.oom.HeapOOM" />
       <module name="testAop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="jvm.oom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.RemoveDuplicates" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dir.test.Hello" />
       <module name="testAop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="dir.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Rotate" />
+    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.NIOServer" />
       <module name="testAop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.StrStr" />
+    <configuration name="TestDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frame.TestDialog" />
       <module name="testAop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="frame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.aop.testMain" />
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.thread.VolatileTest" />
       <module name="testAop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.aop.*" />
+          <option name="PATTERN" value="jvm.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,16 +188,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanTest.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testAop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spring.action" />
+      <option name="MAIN_CLASS_NAME" value="spring.action.BeanTest" />
+      <option name="METHOD_NAME" value="testBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.VolatileTest" />
+      <item itemvalue="Application.Hello" />
+      <item itemvalue="Application.NIOServer" />
+      <item itemvalue="JUnit.BeanTest.testBean" />
+      <item itemvalue="Application.TestDialog" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntegerBreak" />
-        <item itemvalue="Application.testMain" />
-        <item itemvalue="Application.Rotate" />
-        <item itemvalue="Application.StrStr" />
-        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.TestDialog" />
+        <item itemvalue="Application.NIOServer" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="JUnit.BeanTest.testBean" />
+        <item itemvalue="Application.VolatileTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -165,12 +258,61 @@
       <workItem from="1603867343878" duration="6762000" />
       <workItem from="1603934838620" duration="14592000" />
       <workItem from="1604041315680" duration="5748000" />
-      <workItem from="1604286852746" duration="2383000" />
+      <workItem from="1604286852746" duration="3555000" />
+      <workItem from="1604393064620" duration="1533000" />
+      <workItem from="1605236103596" duration="8895000" />
+      <workItem from="1605508729773" duration="22000" />
+      <workItem from="1605774113507" duration="5967000" />
+      <workItem from="1606360523716" duration="1213000" />
+      <workItem from="1606445173646" duration="63000" />
+      <workItem from="1606718371590" duration="5198000" />
+      <workItem from="1606790494518" duration="1163000" />
+      <workItem from="1606792511956" duration="6161000" />
+      <workItem from="1606806454611" duration="34000" />
+      <workItem from="1606900230817" duration="1943000" />
+      <workItem from="1606961024233" duration="806000" />
+      <workItem from="1607044541654" duration="802000" />
+      <workItem from="1607304846047" duration="1245000" />
+      <workItem from="1607925883913" duration="4181000" />
+      <workItem from="1608001357151" duration="1493000" />
+      <workItem from="1608172172494" duration="11601000" />
+      <workItem from="1608277327287" duration="2260000" />
+      <workItem from="1608543706210" duration="979000" />
+      <workItem from="1608601316564" duration="6410000" />
+      <workItem from="1608691979220" duration="5691000" />
+      <workItem from="1608794905479" duration="6109000" />
+      <workItem from="1608864910905" duration="599000" />
+      <workItem from="1609292167403" duration="331000" />
+      <workItem from="1609746248238" duration="3332000" />
+      <workItem from="1609817084131" duration="120000" />
+      <workItem from="1609817246061" duration="5292000" />
+      <workItem from="1610074630725" duration="6175000" />
+      <workItem from="1610344157105" duration="1048000" />
+      <workItem from="1610440373300" duration="1442000" />
+      <workItem from="1610502281634" duration="786000" />
+      <workItem from="1610592314181" duration="2135000" />
+      <workItem from="1610602440869" duration="1213000" />
+      <workItem from="1610698627798" duration="3522000" />
     </task>
+    <task id="LOCAL-00001" summary="git忽略配置">
+      <created>1604311111129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604311111129</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除classes">
+      <created>1604311222399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604311222399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -182,6 +324,34 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git忽略配置" />
+    <MESSAGE value="删除classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除classes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610702381537">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="539" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1610702381537" />
+    <state width="1867" height="286" key="GridCell.Tab.0.bottom" timestamp="1610703403773">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610703403773" />
+    <state width="1867" height="286" key="GridCell.Tab.0.center" timestamp="1610703403773">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="286" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610703403773" />
+    <state width="1867" height="286" key="GridCell.Tab.0.left" timestamp="1610703403772">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="286" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610703403772" />
+    <state width="1867" height="286" key="GridCell.Tab.0.right" timestamp="1610703403773">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1867" height="286" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610703403773" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

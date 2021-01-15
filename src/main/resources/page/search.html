@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="search" type="text">
+<button onclick="search()">百度一下</button>
+</body>
+<script>
+    function search() {
+        var key = document.getElementById("search").value
+        window.open("https://www.baidu.com/s?wd="+key)
+    }
+</script>
+</html>

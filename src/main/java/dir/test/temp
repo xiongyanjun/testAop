@@ -1,0 +1,284 @@
+Classfile /C:/Users/admin/workspace/testAop/target/classes/dir/test/Hello.class
+  Last modified 2021-1-8; size 1392 bytes
+  MD5 checksum 5a2632427a6ea39c424bab8a14462fda
+  Compiled from "Hello.java"
+public class dir.test.Hello
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #16.#55        // java/lang/Object."<init>":()V
+   #2 = Fieldref           #9.#56         // dir/test/Hello.num:I
+   #3 = Float              1.2f
+   #4 = Fieldref           #9.#57         // dir/test/Hello.a:F
+   #5 = Double             1.2d
+   #7 = Fieldref           #9.#58         // dir/test/Hello.b:D
+   #8 = Fieldref           #9.#59         // dir/test/Hello.c:Z
+   #9 = Class              #60            // dir/test/Hello
+  #10 = Methodref          #9.#55         // dir/test/Hello."<init>":()V
+  #11 = Fieldref           #61.#62        // java/lang/System.out:Ljava/io/PrintStream;
+  #12 = Methodref          #9.#63         // dir/test/Hello.getA:()F
+  #13 = Methodref          #9.#64         // dir/test/Hello.getB:()D
+  #14 = Methodref          #9.#65         // dir/test/Hello.getNum:()I
+  #15 = Methodref          #66.#67        // java/io/PrintStream.println:(D)V
+  #16 = Class              #68            // java/lang/Object
+  #17 = Utf8               num
+  #18 = Utf8               I
+  #19 = Utf8               a
+  #20 = Utf8               F
+  #21 = Utf8               b
+  #22 = Utf8               D
+  #23 = Utf8               c
+  #24 = Utf8               Z
+  #25 = Utf8               <init>
+  #26 = Utf8               ()V
+  #27 = Utf8               Code
+  #28 = Utf8               LineNumberTable
+  #29 = Utf8               LocalVariableTable
+  #30 = Utf8               this
+  #31 = Utf8               Ldir/test/Hello;
+  #32 = Utf8               getNum
+  #33 = Utf8               ()I
+  #34 = Utf8               setNum
+  #35 = Utf8               (I)V
+  #36 = Utf8               getA
+  #37 = Utf8               ()F
+  #38 = Utf8               setA
+  #39 = Utf8               (F)V
+  #40 = Utf8               getB
+  #41 = Utf8               ()D
+  #42 = Utf8               setB
+  #43 = Utf8               (D)V
+  #44 = Utf8               isC
+  #45 = Utf8               ()Z
+  #46 = Utf8               setC
+  #47 = Utf8               (Z)V
+  #48 = Utf8               main
+  #49 = Utf8               ([Ljava/lang/String;)V
+  #50 = Utf8               args
+  #51 = Utf8               [Ljava/lang/String;
+  #52 = Utf8               hello
+  #53 = Utf8               SourceFile
+  #54 = Utf8               Hello.java
+  #55 = NameAndType        #25:#26        // "<init>":()V
+  #56 = NameAndType        #17:#18        // num:I
+  #57 = NameAndType        #19:#20        // a:F
+  #58 = NameAndType        #21:#22        // b:D
+  #59 = NameAndType        #23:#24        // c:Z
+  #60 = Utf8               dir/test/Hello
+  #61 = Class              #69            // java/lang/System
+  #62 = NameAndType        #70:#71        // out:Ljava/io/PrintStream;
+  #63 = NameAndType        #36:#37        // getA:()F
+  #64 = NameAndType        #40:#41        // getB:()D
+  #65 = NameAndType        #32:#33        // getNum:()I
+  #66 = Class              #72            // java/io/PrintStream
+  #67 = NameAndType        #73:#43        // println:(D)V
+  #68 = Utf8               java/lang/Object
+  #69 = Utf8               java/lang/System
+  #70 = Utf8               out
+  #71 = Utf8               Ljava/io/PrintStream;
+  #72 = Utf8               java/io/PrintStream
+  #73 = Utf8               println
+{
+  int num;
+    descriptor: I
+    flags:
+
+  float a;
+    descriptor: F
+    flags:
+
+  double b;
+    descriptor: D
+    flags:
+
+  boolean c;
+    descriptor: Z
+    flags:
+
+  public dir.test.Hello();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iconst_0
+         6: putfield      #2                  // Field num:I
+         9: aload_0
+        10: ldc           #3                  // float 1.2f
+        12: putfield      #4                  // Field a:F
+        15: aload_0
+        16: ldc2_w        #5                  // double 1.2d
+        19: putfield      #7                  // Field b:D
+        22: aload_0
+        23: iconst_1
+        24: putfield      #8                  // Field c:Z
+        27: return
+      LineNumberTable:
+        line 6: 0
+        line 7: 4
+        line 8: 9
+        line 9: 15
+        line 10: 22
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      28     0  this   Ldir/test/Hello;
+
+  public int getNum();
+    descriptor: ()I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #2                  // Field num:I
+         4: ireturn
+      LineNumberTable:
+        line 13: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldir/test/Hello;
+
+  public void setNum(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #2                  // Field num:I
+         5: return
+      LineNumberTable:
+        line 17: 0
+        line 18: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Ldir/test/Hello;
+            0       6     1   num   I
+
+  public float getA();
+    descriptor: ()F
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #4                  // Field a:F
+         4: freturn
+      LineNumberTable:
+        line 21: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldir/test/Hello;
+
+  public void setA(float);
+    descriptor: (F)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: fload_1
+         2: putfield      #4                  // Field a:F
+         5: return
+      LineNumberTable:
+        line 25: 0
+        line 26: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Ldir/test/Hello;
+            0       6     1     a   F
+
+  public double getB();
+    descriptor: ()D
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #7                  // Field b:D
+         4: dreturn
+      LineNumberTable:
+        line 29: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldir/test/Hello;
+
+  public void setB(double);
+    descriptor: (D)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: aload_0
+         1: dload_1
+         2: putfield      #7                  // Field b:D
+         5: return
+      LineNumberTable:
+        line 33: 0
+        line 34: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Ldir/test/Hello;
+            0       6     1     b   D
+
+  public boolean isC();
+    descriptor: ()Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #8                  // Field c:Z
+         4: ireturn
+      LineNumberTable:
+        line 37: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Ldir/test/Hello;
+
+  public void setC(boolean);
+    descriptor: (Z)V                         //主要是对方法参数和返回值进行描述
+    flags: ACC_PUBLIC                        //限定
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: iload_1
+         2: putfield      #8                  // Field c:Z
+         5: return
+      LineNumberTable:
+        line 41: 0
+        line 42: 5
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       6     0  this   Ldir/test/Hello;
+            0       6     1     c   Z
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=2, args_size=1          //本方法调用的方法数，本地变量数，参数个数
+         0: new           #9                  // class dir/test/Hello  //创建一个对象, 并将其引用引用值压入栈顶
+         3: dup                               //复制栈顶数值并将复制值压入栈顶
+         4: invokespecial #10                 // Method "<init>":()V    //调用超类构建方法, 实例初始化方法, 私有方法
+         7: astore_1                           //将栈顶引用型数值存入第二个本地变量
+         8: getstatic     #11                 // Field java/lang/System.out:Ljava/io/PrintStream; //获取指定类的静态域, 并将其压入栈顶
+        11: aload_1                            //将第二个引用类型本地变量推送至栈顶
+        12: invokevirtual #12                 // Method getA:()F
+        15: f2d
+        16: aload_1
+        17: invokevirtual #13                 // Method getB:()D
+        20: dadd
+        21: aload_1
+        22: invokevirtual #14                 // Method getNum:()I
+        25: i2d
+        26: dadd
+        27: invokevirtual #15                 // Method java/io/PrintStream.println:(D)V
+        30: return
+      LineNumberTable:
+        line 45: 0
+        line 46: 8
+        line 47: 30
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      31     0  args   [Ljava/lang/String;
+            8      23     1 hello   Ldir/test/Hello;
+}
+SourceFile: "Hello.java"

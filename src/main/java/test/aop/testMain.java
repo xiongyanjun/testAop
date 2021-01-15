@@ -11,6 +11,7 @@ public class testMain {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-bean.xml");
         Person person = applicationContext.getBean(Person.class);
-        person.showPhone();
+        person.showInterface();
+
     }
 }

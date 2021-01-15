@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 /**
  * @author : xiongyanjun  Date: 2020/10/19 ProjectName: settleprovisions Version: 1.0
  */
@@ -17,6 +19,13 @@ public class Person {
 
     @Autowired
     Phone phone;
+
+    @Resource(name = "testImpl1")
+    TestInterface testInterface;
+
+    public void showInterface(){
+        testInterface.func();
+    }
 
     public void showPhone(){
 //        int i = 0;
