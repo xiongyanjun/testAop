@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<p>自定义style</p>
+<div id="app">
+    <div v-for="post in posts" :style="{ fontSize:bFontSize+'px' }">
+        <post-blog v-bind:post="post" v-on:enlarge-font=" bFontSize++ " v-on:narrow-font=" bFontSize-- " v-on:normal-font=" bFontSize=$event "></post-blog>
+    </div>
+</div>
+</body>
+<script>
+    var post = {
+        props:['post'],
+        template:'<div><h1>{{ post.title }}</h1><p>{{ post.content }}</p><div><button v-on:click="$emit(\'enlarge-font\')"> + </button>' +
+            '<button v-on:click="$emit(\'normal-font\',16)"> 正常字体 </button><button v-on:click="$emit(\'narrow-font\')"> - </button></div></div>'
+    }
+
+    Vue.component('post-blog',post);
+
+   var app = new Vue({
+       el:'#app',
+       data:{
+           bFontSize:16,
+            posts:[
+                {title:'hello vue1',content:'Components are reusable Vue instances with a name: in this case, <button-counter>. We can use this component as a custom element inside a root Vue instance created with new Vue'},
+                {title:'hello vue2',content:'Components are reusable Vue instances with a name: in this case, <button-counter>. We can use this component as a custom element inside a root Vue instance created with new Vue'},
+                {title:'hello vue3',content:'Components are reusable Vue instances with a name: in this case, <button-counter>. We can use this component as a custom element inside a root Vue instance created with new Vue'},
+            ]
+       },
+       components:{
+
+       }
+   })
+
+
+</script>
+<style>
+    .light{
+        background-color: white;
+        color: black;
+    }
+    .dark{
+        background-color: black;
+        color: white;
+    }
+</style>
+</html>

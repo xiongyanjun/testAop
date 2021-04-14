@@ -42,7 +42,7 @@ public class Hello {
     }
 
     public static void main(String[] args) {
-        Hello hello = new Hello();
-        System.out.println(hello.getA()+hello.getB()+hello.getNum());
+//        Hello hello = new Hello();
+        System.out.println("hhhhh\nkkkkk");
     }
 }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<p>自定义style</p>
+<div id="app">
+<!--    todo 双向绑定的原理-->
+    <my-tag></my-tag>
+    <p>{{ inputText }}</p>
+    <input type="text" v-model="inputText">
+    <select v-model="selected">
+        <option v-for="opt in opts" v-bind:value="opt.val">{{ opt.name }}</option>
+    </select>
+    <p v-bind:class="selected">{{ selected }}</p>
+    <p v-bind:class="selected">{{ msg }}</p>
+    <display-post v-for="post in posts" v-bind:title="post.title"></display-post>
+</div>
+</body>
+<script>
+
+    var componentTest = {
+        data:function(){
+            return{
+                selected:'dark',
+                opts:[
+                    {name:'深色',val:'dark'},
+                    {name:'浅色',val:'light'}
+                ],
+            }
+        },
+        template:'    <select v-model="selected">\n' +
+        '        <option v-for="opt in opts" v-bind:value="opt.val">{{ opt.name }}</option>\n' +
+        '    </select>'
+    }
+
+    var displayPost = {
+         props:['title'],
+        template: '<h3 class="dark">{{ title }}</h3>'
+    }
+
+    Vue.component('my-tag',componentTest)
+
+   var app = new Vue({
+       el:'#app',
+       data:{
+           selected:'dark',
+           inputText:'',
+           msg:'hello',
+           opts:[
+               {name:'暗',val:'dark'},
+               {name:'亮',val:'light'}
+           ],
+           posts: [
+               { id: 1, title: 'My journey with Vue' },
+               { id: 2, title: 'Blogging with Vue' },
+               { id: 3, title: 'Why Vue is so fun' }
+           ]
+       },
+       components:{
+           'display-post':displayPost
+       }
+   })
+
+
+</script>
+<style>
+    .light{
+        background-color: white;
+        color: black;
+    }
+    .dark{
+        background-color: black;
+        color: white;
+    }
+</style>
+</html>
